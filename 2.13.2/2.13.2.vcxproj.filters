@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="クラス">
+      <UniqueIdentifier>{3e453cc4-da85-4fda-9353-106f74254a19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="クラス\Pika">
+      <UniqueIdentifier>{0d70a170-b2c4-463e-a39c-61a313f77497}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Pokemon.cpp">
+      <Filter>クラス\Pika</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pokemon.h">
+      <Filter>クラス\Pika</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
